@@ -32,7 +32,7 @@ export default function ({ cartItems, removeFromCart }) {
             })}
           </ul>
           <p className="p-3">
-            <span>Total Amount : Rs {total}</span>
+            <span className="fw-bold">Total Amount : Rs {total}</span>
           </p>
         </>
       ) : (
